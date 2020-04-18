@@ -11,7 +11,7 @@
   background-size: 100%;
 
 
-  margin-top: 310px;
+  // margin-top: 310px;
 
   min-height: 1265px;
 }
@@ -31,6 +31,72 @@
   font-size: 46.84px;
   line-height: 45.33px;
   color: #fff9f6;
+
+  text-shadow:
+    -0   -7px 0   #7f0b01,
+    0   -7px 0   #7f0b01,
+    -0    7px 0   #7f0b01,
+    0    7px 0   #7f0b01,
+    -7px -0   0   #7f0b01,
+    7px -0   0   #7f0b01,
+    -7px  0   0   #7f0b01,
+    7px  0   0   #7f0b01,
+    -1px -7px 0   #7f0b01,
+    1px -7px 0   #7f0b01,
+    -1px  7px 0   #7f0b01,
+    1px  7px 0   #7f0b01,
+    -7px -1px 0   #7f0b01,
+    7px -1px 0   #7f0b01,
+    -7px  1px 0   #7f0b01,
+    7px  1px 0   #7f0b01,
+    -2px -7px 0   #7f0b01,
+    2px -7px 0   #7f0b01,
+    -2px  7px 0   #7f0b01,
+    2px  7px 0   #7f0b01,
+    -7px -2px 0   #7f0b01,
+    7px -2px 0   #7f0b01,
+    -7px  2px 0   #7f0b01,
+    7px  2px 0   #7f0b01,
+    -3px -7px 0   #7f0b01,
+    3px -7px 0   #7f0b01,
+    -3px  7px 0   #7f0b01,
+    3px  7px 0   #7f0b01,
+    -7px -3px 0   #7f0b01,
+    7px -3px 0   #7f0b01,
+    -7px  3px 0   #7f0b01,
+    7px  3px 0   #7f0b01,
+    -4px -7px 0   #7f0b01,
+    4px -7px 0   #7f0b01,
+    -4px  7px 0   #7f0b01,
+    4px  7px 0   #7f0b01,
+    -7px -4px 0   #7f0b01,
+    7px -4px 0   #7f0b01,
+    -7px  4px 0   #7f0b01,
+    7px  4px 0   #7f0b01,
+    -5px -7px 0   #7f0b01,
+    5px -7px 0   #7f0b01,
+    -5px  7px 0   #7f0b01,
+    5px  7px 0   #7f0b01,
+    -7px -5px 0   #7f0b01,
+    7px -5px 0   #7f0b01,
+    -7px  5px 0   #7f0b01,
+    7px  5px 0   #7f0b01,
+    -6px -7px 0   #7f0b01,
+    6px -7px 0   #7f0b01,
+    -6px  7px 0   #7f0b01,
+    6px  7px 0   #7f0b01,
+    -7px -6px 0   #7f0b01,
+    7px -6px 0   #7f0b01,
+    -7px  6px 0   #7f0b01,
+    7px  6px 0   #7f0b01,
+    -7px -7px 0   #7f0b01,
+    7px -7px 0   #7f0b01,
+    -7px  7px 0   #7f0b01,
+    7px  7px 0   #7f0b01,
+    -7px -7px 0   #7f0b01,
+    7px -7px 0   #7f0b01,
+    -7px  7px 0   #7f0b01,
+    7px  7px 0   #7f0b01;
 }
 
 .kar__header button {
@@ -77,6 +143,7 @@
 
 .kar__left p:last-of-type {
   margin-top: 6px;
+  margin-bottom: 3px;
   padding-right: 15%;
   padding-left: 15%;
   line-height: 1.25em;

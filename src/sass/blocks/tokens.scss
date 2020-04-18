@@ -1,7 +1,68 @@
 .tokens {
   display: flex;
+  align-items: center;
   padding: 0;
   margin: 0;
+  min-height: 146px;
 
   list-style: none;
+}
+
+.tokens__item {
+  display: flex;
+  flex-direction: column;
+
+  width: 131px;
+}
+
+.tokens__item .tokens__count {
+  font-size: 32.36px;
+  line-height: 8.64px;
+  color: #286d4e;
+
+  &::after {
+    content: "";
+    width: 33px;
+    height: 33px;
+
+    background-image: url("../img/token.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+}
+
+.tokens__item--status h2 {
+  margin: 0;
+  margin-bottom: 28px;
+  padding: 0;
+
+  font-size: 21.96px;
+  line-height: 8.33px;
+  color: #10507c;
+}
+
+.tokens__item--status .tokens__count {
+  font-size: 25.62px;
+  line-height: 8.33px;
+  color: #10507c;
+}
+
+.tokens__item button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 117px;
+  min-height: 55px;
+
+  font-family: "Marvin Round", "Arial", sans-serif;
+  font-size: 20.06px;
+  line-height: 7.91px;
+  color: #ffffff;
+
+  background-color: transparent;
+  background-image: url("../img/button-blue.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border: none;
 }
