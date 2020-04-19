@@ -5,13 +5,14 @@
   flex-wrap: wrap;
   margin: 0 auto;
   width: 100%;
+  max-width: 1070px;
 
   background-image: url("../img/kar.png");
   background-repeat: no-repeat;
   background-size: 100%;
 
 
-  // margin-top: 310px;
+  margin-top: 310px;
 
   min-height: 1265px;
 }
@@ -31,72 +32,57 @@
   font-size: 46.84px;
   line-height: 45.33px;
   color: #fff9f6;
+  letter-spacing: -2px;
 
   text-shadow:
-    -0   -7px 0   #7f0b01,
-    0   -7px 0   #7f0b01,
-    -0    7px 0   #7f0b01,
-    0    7px 0   #7f0b01,
-    -7px -0   0   #7f0b01,
-    7px -0   0   #7f0b01,
-    -7px  0   0   #7f0b01,
-    7px  0   0   #7f0b01,
-    -1px -7px 0   #7f0b01,
-    1px -7px 0   #7f0b01,
-    -1px  7px 0   #7f0b01,
-    1px  7px 0   #7f0b01,
-    -7px -1px 0   #7f0b01,
-    7px -1px 0   #7f0b01,
-    -7px  1px 0   #7f0b01,
-    7px  1px 0   #7f0b01,
-    -2px -7px 0   #7f0b01,
-    2px -7px 0   #7f0b01,
-    -2px  7px 0   #7f0b01,
-    2px  7px 0   #7f0b01,
-    -7px -2px 0   #7f0b01,
-    7px -2px 0   #7f0b01,
-    -7px  2px 0   #7f0b01,
-    7px  2px 0   #7f0b01,
-    -3px -7px 0   #7f0b01,
-    3px -7px 0   #7f0b01,
-    -3px  7px 0   #7f0b01,
-    3px  7px 0   #7f0b01,
-    -7px -3px 0   #7f0b01,
-    7px -3px 0   #7f0b01,
-    -7px  3px 0   #7f0b01,
-    7px  3px 0   #7f0b01,
-    -4px -7px 0   #7f0b01,
-    4px -7px 0   #7f0b01,
-    -4px  7px 0   #7f0b01,
-    4px  7px 0   #7f0b01,
-    -7px -4px 0   #7f0b01,
-    7px -4px 0   #7f0b01,
-    -7px  4px 0   #7f0b01,
-    7px  4px 0   #7f0b01,
-    -5px -7px 0   #7f0b01,
-    5px -7px 0   #7f0b01,
-    -5px  7px 0   #7f0b01,
-    5px  7px 0   #7f0b01,
-    -7px -5px 0   #7f0b01,
-    7px -5px 0   #7f0b01,
-    -7px  5px 0   #7f0b01,
-    7px  5px 0   #7f0b01,
-    -6px -7px 0   #7f0b01,
-    6px -7px 0   #7f0b01,
-    -6px  7px 0   #7f0b01,
-    6px  7px 0   #7f0b01,
-    -7px -6px 0   #7f0b01,
-    7px -6px 0   #7f0b01,
-    -7px  6px 0   #7f0b01,
-    7px  6px 0   #7f0b01,
-    -7px -7px 0   #7f0b01,
-    7px -7px 0   #7f0b01,
-    -7px  7px 0   #7f0b01,
-    7px  7px 0   #7f0b01,
-    -7px -7px 0   #7f0b01,
-    7px -7px 0   #7f0b01,
-    -7px  7px 0   #7f0b01,
-    7px  7px 0   #7f0b01;
+    -0   -5px 4px #7f0b01,
+    0   -5px 4px #7f0b01,
+    -0    5px 4px #7f0b01,
+    0    5px 4px #7f0b01,
+    -5px -0   4px #7f0b01,
+    5px -0   4px #7f0b01,
+    -5px  0   4px #7f0b01,
+    5px  0   4px #7f0b01,
+    -1px -5px 4px #7f0b01,
+    1px -5px 4px #7f0b01,
+    -1px  5px 4px #7f0b01,
+    1px  5px 4px #7f0b01,
+    -5px -1px 4px #7f0b01,
+    5px -1px 4px #7f0b01,
+    -5px  1px 4px #7f0b01,
+    5px  1px 4px #7f0b01,
+    -2px -5px 4px #7f0b01,
+    2px -5px 4px #7f0b01,
+    -2px  5px 4px #7f0b01,
+    2px  5px 4px #7f0b01,
+    -5px -2px 4px #7f0b01,
+    5px -2px 4px #7f0b01,
+    -5px  2px 4px #7f0b01,
+    5px  2px 4px #7f0b01,
+    -3px -5px 4px #7f0b01,
+    3px -5px 4px #7f0b01,
+    -3px  5px 4px #7f0b01,
+    3px  5px 4px #7f0b01,
+    -5px -3px 4px #7f0b01,
+    5px -3px 4px #7f0b01,
+    -5px  3px 4px #7f0b01,
+    5px  3px 4px #7f0b01,
+    -4px -5px 4px #7f0b01,
+    4px -5px 4px #7f0b01,
+    -4px  5px 4px #7f0b01,
+    4px  5px 4px #7f0b01,
+    -5px -4px 4px #7f0b01,
+    5px -4px 4px #7f0b01,
+    -5px  4px 4px #7f0b01,
+    5px  4px 4px #7f0b01,
+    -5px -5px 4px #7f0b01,
+    5px -5px 4px #7f0b01,
+    -5px  5px 4px #7f0b01,
+    5px  5px 4px #7f0b01,
+    -5px -5px 4px #7f0b01,
+    5px -5px 4px #7f0b01,
+    -5px  5px 4px #7f0b01,
+    5px  5px 4px #7f0b01;
 }
 
 .kar__header button {
@@ -105,7 +91,7 @@
   width: 80px;
   height: 80px;
 
-  top: 30px;
+  top: 32px;
   right: 0;
 
   border: none;
@@ -118,35 +104,52 @@
 .kar__wrapper {
   display: flex;
   justify-content: space-between;
-  padding-top: 260px;
+  padding-top: 235px;
   width: 95%;
 }
 
 .kar__left {
   display: flex;
   flex-direction: column;
+  padding-top: 25px;
   padding-left: 11.5%;
   width: 60%;
 }
 
-.kar__left p {
+.kar__left .kar__text {
   margin: 0;
   margin-bottom: 16px;
   padding: 0;
   padding-right: 5%;
-  padding-left: 5%;
+  padding-left: 40px;
 
   font-size: 23.42px;
   line-height: 1.28em;
   text-align: center;
+  letter-spacing: -0.6px;
 }
 
-.kar__left p:last-of-type {
+.kar__left .kar__text:nth-of-type(2) {
+  padding-left: 20px;
+  letter-spacing: -0.3px;
+}
+
+.kar__left .kar__text--smale {
   margin-top: 6px;
   margin-bottom: 3px;
-  padding-right: 15%;
-  padding-left: 15%;
-  line-height: 1.25em;
+  padding-right: 65px;
+  padding-left: 60px;
 
   font-size: 16.47px;
+  line-height: 1.25em;
+
+  letter-spacing: -0.3px;
+}
+
+.kar__right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  // padding-top: 25px;
+  width: 40%;
 }

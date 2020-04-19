@@ -1,9 +1,10 @@
 .tokens {
   display: flex;
-  align-items: center;
+  // align-items: center;
   padding: 0;
+  padding-top: 15px;
+  padding-left: 5px;
   margin: 0;
-  min-height: 146px;
 
   list-style: none;
 }
@@ -11,17 +12,33 @@
 .tokens__item {
   display: flex;
   flex-direction: column;
+  // justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  padding-top: 23px;
+  padding-bottom: 27px;
 
-  width: 131px;
+  width: 130px;
+  // min-height: 146px;
+}
+
+.tokens__item--status {
+  margin-right: 20px;
+  padding-top: 40px;
 }
 
 .tokens__item .tokens__count {
+  display: flex;
+  align-items: center;
+  margin-bottom: 7px;
+  // position: relative;
   font-size: 32.36px;
   line-height: 8.64px;
   color: #286d4e;
 
   &::after {
     content: "";
+    // position: absolute;
     width: 33px;
     height: 33px;
 
@@ -31,10 +48,13 @@
   }
 }
 
-.tokens__item--status h2 {
+.tokens__item--status p {
+  display: flex;
+  flex-wrap: wrap;
   margin: 0;
-  margin-bottom: 28px;
+  margin-bottom: 13px;
   padding: 0;
+  padding-left: 15px;
 
   font-size: 21.96px;
   line-height: 8.33px;
@@ -42,12 +62,18 @@
 }
 
 .tokens__item--status .tokens__count {
+  margin-top: 14px;
+
   font-size: 25.62px;
   line-height: 8.33px;
   color: #10507c;
+
+  &::after {
+    margin-left: 5px;
+  }
 }
 
-.tokens__item button {
+.tokens__button {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -65,4 +91,8 @@
   background-repeat: no-repeat;
   background-size: 100%;
   border: none;
+
+  & span {
+    margin-left: 5px;
+  }
 }

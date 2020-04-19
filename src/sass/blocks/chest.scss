@@ -1,0 +1,34 @@
+.chest {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 20px;
+  margin-bottom: 77px;
+  width: 273px;
+  min-height: 336px;
+
+  &::after {
+    content: "";
+    position: absolute;
+
+    width: 217px;
+    height: 191px;
+
+    right: -68px;
+    bottom: -77px;
+
+    background-image: url("../img/broom.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+.chest__img {
+  display: none;
+}
+
+.chest__img--active {
+  display: block;
+}

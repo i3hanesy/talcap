@@ -1,0 +1,95 @@
+.progress-bar {
+  position: relative;
+  margin-left: -8px;
+  padding-top: 18px;
+  padding-left: 13px;
+  padding-right: 18px;
+
+  width: 320px;
+  height: 80px;
+
+
+  background-image: url("../img/progress-bar.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  border: 3px solid #a12c00;
+  border-top-left-radius: 15px 20px;
+  border-bottom-left-radius: 20px 20px;
+  border-top-right-radius: 15px 20px;
+  border-bottom-right-radius: 20px 20px;
+
+  &::after {
+    content: "";
+    position: absolute;
+
+    width: 105px;
+    height: 110px;
+
+    top: -25px;
+    right: -60px;
+
+    background-image: url("../img/key.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+.progress-bar__range {
+  width: 50%;
+  height: 43px;
+
+  background-image: linear-gradient(0deg, #01539f 0, #00f6ff 70%);
+  box-shadow: inset 4.096px 2.868px 11px 0 rgba(143, 6, 188, 0.52), inset 0 -1px 7px 0 rgba(0, 84, 198, 0.83), 0 0 15px 0 rgba(0, 0, 0, 1);
+  border-top-left-radius: 10px 15px;
+  border-bottom-left-radius: 10px 15px;
+  border-top-right-radius: 10px 15px;
+  border-bottom-right-radius: 10px 15px;
+}
+
+.progress-bar__status {
+  position: absolute;
+
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-35%, -25%);
+
+  font-size: 33.3px;
+  line-height: 6.22px;
+  color: #ffffff;
+
+  text-shadow:
+    -0   -3px 0   #7f2300,
+    0   -3px 0   #7f2300,
+    -0    3px 0   #7f2300,
+    0    3px 0   #7f2300,
+    -3px -0   0   #7f2300,
+    3px -0   0   #7f2300,
+    -3px  0   0   #7f2300,
+    3px  0   0   #7f2300,
+    -1px -3px 0   #7f2300,
+    1px -3px 0   #7f2300,
+    -1px  3px 0   #7f2300,
+    1px  3px 0   #7f2300,
+    -3px -1px 0   #7f2300,
+    3px -1px 0   #7f2300,
+    -3px  1px 0   #7f2300,
+    3px  1px 0   #7f2300,
+    -2px -3px 0   #7f2300,
+    2px -3px 0   #7f2300,
+    -2px  3px 0   #7f2300,
+    2px  3px 0   #7f2300,
+    -3px -2px 0   #7f2300,
+    3px -2px 0   #7f2300,
+    -3px  2px 0   #7f2300,
+    3px  2px 0   #7f2300,
+    -3px -3px 0   #7f2300,
+    3px -3px 0   #7f2300,
+    -3px  3px 0   #7f2300,
+    3px  3px 0   #7f2300,
+    -3px -3px 0   #7f2300,
+    3px -3px 0   #7f2300,
+    -3px  3px 0   #7f2300,
+    3px  3px 0   #7f2300;
+}

@@ -15,9 +15,9 @@
       </div>
       <div class="kar__wrapper">
         <div class="kar__left">
-          <p>Найдите все ключи к сундуку и получите спрятанные в нем сокровища!</p>
-          <p>Ключи можно найти в подарочных коробках! Больше коробка – выше шанс!</p>
-          <p>Дополнительные жетоны даются при серийных победах на уровнях и при любом прохождении сложных уровней!</p>
+          <p class="kar__text">Найдите все ключи к сундуку<br> и получите спрятанные<br> в нем сокровища!</p>
+          <p class="kar__text">Ключи можно найти<br> в подарочных коробках!<br> Больше коробка – выше шанс!</p>
+          <p class="kar__text kar__text--smale">Дополнительные жетоны даются<br> при серийных победах на уровнях<br> и при любом прохождении<br> сложных уровней!</p>
           <ul class="presents">
             <li class="presents__item presents__item--big">
               <img src="img/box-green.png" width="117" height="149" alt="зеленый бокс">
@@ -34,16 +34,17 @@
           </ul>
           <ul class="tokens">
             <li class="tokens__item tokens__item--status">
-              <h2>Баланс:</h2>
-              <span class="tokens__count">2999</span>
+              <p>Баланс:
+                <span class="tokens__count">2999</span>
+              </p>
             </li>
             <li class="tokens__item">
               <span class="tokens__count">100</span>
-              <button type="button">59<span>Руб</span></button>
+              <button class="tokens__button" type="button">59<span>Руб</span></button>
             </li>
             <li class="tokens__item">
               <span class="tokens__count">1000</span>
-              <button type="button">59<span>Руб</span></button>
+              <button class="tokens__button" type="button">499<span>Руб</span></button>
             </li>
           </ul>
         </div>
@@ -53,10 +54,9 @@
             <img class="chest__img" src="img/chest-open.png" width="255" height="336" alt="сундук открыт">
           </div>
           <div class="progress-bar">
+            <div class="progress-bar__range"></div>
             <div class="progress-bar__status">
-              <span>5</span>
-              <span>\</span>
-              <span>10</span>
+              <span>5</span><span>\</span><span>10</span>
             </div>
           </div>
         </div>
