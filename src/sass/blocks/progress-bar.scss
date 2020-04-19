@@ -13,6 +13,12 @@
   background-repeat: no-repeat;
   background-size: cover;
 
+  @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+    background-image: url("../img/progress-bar@2x.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
   border: 3px solid #a12c00;
   border-top-left-radius: 15px 20px;
   border-bottom-left-radius: 20px 20px;
@@ -32,6 +38,12 @@
     background-image: url("../img/key.png");
     background-repeat: no-repeat;
     background-size: cover;
+
+    @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+      background-image: url("../img/key@2x.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
   }
 }
 

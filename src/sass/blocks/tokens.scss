@@ -1,6 +1,5 @@
 .tokens {
   display: flex;
-  // align-items: center;
   padding: 0;
   padding-top: 15px;
   padding-left: 5px;
@@ -12,14 +11,12 @@
 .tokens__item {
   display: flex;
   flex-direction: column;
-  // justify-content: center;
   align-items: center;
   margin-right: 10px;
   padding-top: 23px;
   padding-bottom: 27px;
 
   width: 130px;
-  // min-height: 146px;
 }
 
 .tokens__item--status {
@@ -45,7 +42,13 @@
 
     background-image: url("../img/token.png");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
+
+    @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+      background-image: url("../img/token@2x.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
   }
 }
 
@@ -90,7 +93,14 @@
   background-color: transparent;
   background-image: url("../img/button-blue.png");
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
+
+  @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+    background-image: url("../img/button-blue@2X.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
   border: none;
 
   text-shadow:
@@ -127,6 +137,8 @@
     -3px  3px 0   #1367dc,
     3px  3px 0   #1367dc;
 
+  transition: all 0.3s ease;
+
   & span {
     margin-left: 8px;
   }
@@ -134,5 +146,9 @@
   &:hover,
   &:focus {
     background-image: url("../img/button-blue-hover.png");
+
+    @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+      background-image: url("../img/button-blue-hover@2x.png");
+    }
   }
 }

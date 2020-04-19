@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: row-reverse;
   justify-content: flex-end;
+  flex-wrap: wrap;
   padding: 0;
   margin: 0;
 
@@ -11,6 +12,7 @@
 .presents .presents__item {
   display: flex;
   flex-direction: column;
+  justify-content: flex-end;
   margin-right: 20px;
   padding-top: 35px;
   min-width: 10px;
@@ -36,7 +38,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: -10px;
+  margin-top: -7px;
   margin-left: auto;
   margin-right: auto;
 
@@ -52,7 +54,13 @@
   background-color: transparent;
   background-image: url("../img/button-pinc.png");
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
+
+  @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+    background-image: url("../img/button-pinc@2x.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 
   text-shadow:
     -0   -3px 0   #aa1349,
@@ -88,29 +96,41 @@
     -3px  3px 0   #aa1349,
     3px  3px 0   #aa1349;
 
-    &:hover,
-    &:focus {
-      background-image: url("../img/button-pinc-hover.png");
+  transition: all 0.3s ease;
+
+  &::after {
+    content: "";
+
+    width: 33px;
+    height: 33px;
+
+    background-image: url("../img/token.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+      background-image: url("../img/token@2x.png");
+      background-repeat: no-repeat;
+      background-size: cover;
     }
+  }
+
+  &:hover,
+  &:focus {
+    background-image: url("../img/button-pinc-hover.png");
+
+    @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+      background-image: url("../img/button-pinc-hover@2x.png");
+    }
+  }
 }
 
 .presents__button span {
   margin-right: 5px;
 }
 
-.presents__button::after {
-  content: "";
-
-  width: 33px;
-  height: 33px;
-
-  background-image: url("../img/token.png");
-  background-repeat: no-repeat;
-  background-size: 100%;
-}
-
 .presents__item--middle .presents__button {
-  margin-top: -23px;
+  margin-top: -21px;
 }
 
 .presents__item--big .presents__button {

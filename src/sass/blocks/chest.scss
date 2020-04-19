@@ -22,6 +22,12 @@
     background-image: url("../img/broom.png");
     background-repeat: no-repeat;
     background-size: cover;
+
+    @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+      background-image: url("../img/broom@2x.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
   }
 }
 

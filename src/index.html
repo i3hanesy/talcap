@@ -5,6 +5,7 @@
     <title>Тестовое задание talcap</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="format-detection" content="telephone=no">
+    <link rel="preload" href="fonts/MarvinRound.woff2" as="font" crossorigin="anonymous">
     <link href="css/style.min.css" rel="stylesheet">
   </head>
   <body>
@@ -20,15 +21,33 @@
           <p class="kar__text kar__text--smale">Дополнительные жетоны даются<br> при серийных победах на уровнях<br> и при любом прохождении<br> сложных уровней!</p>
           <ul class="presents">
             <li class="presents__item presents__item--big">
-              <img src="img/box-green.png" width="117" height="149" alt="зеленый бокс">
+              <picture>
+                <source type="image/webp" srcset="img/box-green.webp, img/box-green@2x.webp 2x">
+                <!-- 1x: 158px, 2x: 316px -->
+                <img src="img/box-green.png" width="158" height="187"
+                  srcset="img/box-green.png 1x, img/box-green@2x.png 2x"
+                  alt="зеленый бокс">
+              </picture>
               <button class="presents__button" type="button"><span>120</span></button>
             </li>
             <li class="presents__item presents__item--middle">
-              <img src="img/box-pinc.png" width="117" height="149" alt="розовый бокс">
+              <picture>
+                <source type="image/webp" srcset="img/box-pinc.webp, img/box-pinc@2x.webp 2x">
+                <!-- 1x: 149px, 2x: 298px -->
+                <img src="img/box-pinc.png" width="149" height="169"
+                  srcset="img/box-pinc.png 1x, img/box-pinc@2x.png 2x"
+                  alt="розовый бокс">
+              </picture>
               <button class="presents__button" type="button"><span>80</span></button>
             </li>
             <li class="presents__item presents__item--smale">
-              <img src="img/box-blue.png" width="117" height="149" alt="синий бокс">
+              <picture>
+                <source type="image/webp" srcset="img/box-blue.webp, img/box-blue@2x.webp 2x">
+                <!-- 1x: 117px, 2x: 234px -->
+                <img src="img/box-blue.png" width="117" height="146"
+                  srcset="img/box-blue.png 1x, img/box-blue@2x.png 2x"
+                  alt="синий бокс">
+              </picture>
               <button class="presents__button" type="button"><span>40</span></button>
             </li>
           </ul>
@@ -50,13 +69,26 @@
         </div>
         <div class="kar__right">
           <div class="chest">
-            <img class="chest__img chest__img--active" src="img/chest-close.png" width="273" height="285" alt="сундук закрыт">
-            <img class="chest__img" src="img/chest-open.png" width="255" height="336" alt="сундук открыт">
+            <picture>
+              <source type="image/webp" srcset="img/chest-open.webp, img/chest-open@2x.webp 2x">
+              <!-- 1x: 255px, 2x: 510px -->
+              <img class="chest__img" src="img/chest-open.png" width="255" height="336"
+                srcset="img/chest-open.png 1x, img/chest-open@2x.png 2x"
+                alt="сундук открыт">
+            </picture>
+            <picture>
+              <source type="image/webp" srcset="img/chest-close.webp, img/chest-close@2x.webp 2x">
+              <!-- 1x: 273px, 2x: 546px -->
+              <img class="chest__img chest__img--active" src="img/chest-close.png"
+                width="273" height="285"
+                srcset="img/chest-close.png 1x, img/chest-close@2x.png 2x"
+                alt="сундук закрыт">
+            </picture>
           </div>
           <div class="progress-bar">
             <div class="progress-bar__range"></div>
             <div class="progress-bar__status">
-              <span>5</span><span>\</span><span>10</span>
+              <span class="progress-bar__count">5</span><span>\</span><span>10</span>
             </div>
           </div>
         </div>
