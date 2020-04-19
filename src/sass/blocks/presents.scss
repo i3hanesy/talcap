@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: row-reverse;
   justify-content: flex-end;
-  flex-wrap: wrap;
+  // flex-wrap: wrap;
   padding: 0;
   margin: 0;
 
@@ -42,7 +42,7 @@
   margin-left: auto;
   margin-right: auto;
 
-  width: 112px;
+  width: 96%;
   height: 74px;
 
   font-family: "Marvin Round", "Arial", sans-serif;
@@ -54,12 +54,12 @@
   background-color: transparent;
   background-image: url("../img/button-pinc.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
 
   @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
     background-image: url("../img/button-pinc@2x.png");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
   }
 
   text-shadow:
@@ -131,8 +131,10 @@
 
 .presents__item--middle .presents__button {
   margin-top: -21px;
+  width: 75%;
 }
 
 .presents__item--big .presents__button {
   margin-top: -16px;
+  width: 70%;
 }
