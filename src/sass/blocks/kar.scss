@@ -11,12 +11,12 @@
 
   background-image: url("../img/kar.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
 
   @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
     background-image: url("../img/kar@2x.png");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
   }
 }
 
