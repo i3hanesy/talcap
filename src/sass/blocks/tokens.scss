@@ -30,11 +30,12 @@
 .tokens__item .tokens__count {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   margin-bottom: 7px;
-  // position: relative;
   font-size: 32.36px;
   line-height: 8.64px;
   color: #286d4e;
+  min-width: 100px;
 
   &::after {
     content: "";
@@ -82,7 +83,7 @@
   min-height: 55px;
 
   font-family: "Marvin Round", "Arial", sans-serif;
-  font-size: 20.06px;
+  font-size: 19.06px;
   line-height: 7.91px;
   color: #ffffff;
 
@@ -92,7 +93,46 @@
   background-size: 100%;
   border: none;
 
+  text-shadow:
+    -0   -3px 0   #1367dc,
+    0   -3px 0   #1367dc,
+    -0    3px 0   #1367dc,
+    0    3px 0   #1367dc,
+    -3px -0   0   #1367dc,
+    3px -0   0   #1367dc,
+    -3px  0   0   #1367dc,
+    3px  0   0   #1367dc,
+    -1px -3px 0   #1367dc,
+    1px -3px 0   #1367dc,
+    -1px  3px 0   #1367dc,
+    1px  3px 0   #1367dc,
+    -3px -1px 0   #1367dc,
+    3px -1px 0   #1367dc,
+    -3px  1px 0   #1367dc,
+    3px  1px 0   #1367dc,
+    -2px -3px 0   #1367dc,
+    2px -3px 0   #1367dc,
+    -2px  3px 0   #1367dc,
+    2px  3px 0   #1367dc,
+    -3px -2px 0   #1367dc,
+    3px -2px 0   #1367dc,
+    -3px  2px 0   #1367dc,
+    3px  2px 0   #1367dc,
+    -3px -3px 0   #1367dc,
+    3px -3px 0   #1367dc,
+    -3px  3px 0   #1367dc,
+    3px  3px 0   #1367dc,
+    -3px -3px 0   #1367dc,
+    3px -3px 0   #1367dc,
+    -3px  3px 0   #1367dc,
+    3px  3px 0   #1367dc;
+
   & span {
-    margin-left: 5px;
+    margin-left: 8px;
+  }
+
+  &:hover,
+  &:focus {
+    background-image: url("../img/button-blue-hover.png");
   }
 }

@@ -87,6 +87,11 @@
     3px -3px 0   #aa1349,
     -3px  3px 0   #aa1349,
     3px  3px 0   #aa1349;
+
+    &:hover,
+    &:focus {
+      background-image: url("../img/button-pinc-hover.png");
+    }
 }
 
 .presents__button span {
